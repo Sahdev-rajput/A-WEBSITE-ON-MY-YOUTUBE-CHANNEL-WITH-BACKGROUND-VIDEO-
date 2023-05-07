@@ -1,0 +1,162 @@
+@keyframes blinking
+		{
+			0%{color: yellow;}
+			50%{color: red;}
+			75%{color: blue;}
+			100%{color: black;}
+		}
+		#iam{
+			font-size: 50px;
+			animation: blinking 6s infinite;
+			font-family: cursive;
+		}
+body{
+		font-family: cursive;
+		line-height: 1.6;
+		background-image: url(spotlight.jpg);
+		background-repeat: no-repeat;
+		background-color: lightgoldenrodyellow;
+	}
+#background-video 
+{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  margin-left: 500px;
+}
+.sahdev
+{
+	margin: 0;
+  	padding: 0;
+}
+.input
+{
+	margin: 5px;
+	padding-top: 0;
+}
+.cf
+{
+	display: inline-block;
+	height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: #513d42;
+}
+nav ul
+{
+	margin: 0;
+}
+nav li
+{
+	display: inline;
+	float:  left;
+	text-align: center;
+}
+nav a
+{
+	display: inline-block;
+	text-decoration: none;
+	width: 140px;
+	color: #eae9e9 ;
+	padding:  10px 0px 10px 0px;
+}
+nav li:hover
+{
+    background-color: #000000;
+}
+#we
+{
+	font-size: 40px;
+	font-family:cursive;
+	color: #F7CAC9;
+	margin-left: 70px;
+}
+#avatar
+{
+	border-radius: 50%;
+	margin-left: 85px;
+}
+
+.two li
+{
+ list-style-type: none;
+ position: relative;
+ padding-left: 15px;
+ font-size: 25px;
+ font-weight: bolder;
+}
+
+
+.two li:before{
+	content: "\25BA \0020";
+	font-size: 15px;
+	position: absolute;
+	top: 5px;
+	left: -10px;
+
+}
+.srinagar
+{
+	width: 485px;
+	background-color: #513d42;
+	border: 2px solid black;
+}
+
+
+.fun
+{
+	color: white;
+	display: inline-block;
+	list-style: none;
+	position: relative;
+}
+
+
+.fun a{
+	color: white;
+	text-decoration: none;
+}
+
+
+.footer-bottom
+{
+	color: #2E4053;
+	margin-left: 80px;
+	font-weight: bolder;
+}
+
+
+@keyframes blink
+		{
+			0%{color: skyblue;}
+			25%{color:orange; }
+			50%{color: blue;}
+			75%{color: violet;}
+			100%{color: black;}
+		}
+
+.mysection
+{
+	background-color: #FFFFC8;
+	width: 32.5%;
+	height: 60px;
+	font-size: 40px;
+	animation: blink 1s infinite;
+}
+aside {
+  width: 30%;
+  padding-left: 25px;
+  margin-left: 4px;
+  float: left;
+  background-color: lightgray;
+  font-family: cursive;
+}
+
+
+
